@@ -576,10 +576,14 @@ dotnet test dotnet/agent-framework-dotnet.slnx --framework net10.0 --filter "Ful
 - [**Hosting**](hosting.md) - DI, ASP.NET Core, Azure Functions, DurableTask
 - [**Cross-Cutting**](cross-cutting.md) - Memory, storage, compliance, declarative agents
 
+### Getting Started
+- [**Getting Started Guide**](getting-started.md) - 30-minute walkthrough from clone to working agent
+
 ### Development
 - [**Extension Guide**](extension-guide.md) - Step-by-step guides for extending the framework
-- [**Build & Test**](build-test.md) - Development workflow, troubleshooting
 - [**Samples**](samples.md) - Example applications and usage patterns
+- [**Troubleshooting**](troubleshooting.md) - Debugging, common errors, and diagnostics
+- [**Build System Deep-Dive**](dotnet-build-system.md) - MSBuild infrastructure, multi-targeting, polyfills
 
 ### Reference
 - [**Architectural Decisions**](../../decisions/) - ADRs explaining design choices
